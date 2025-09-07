@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto mb-8">
           <h1 className="font-retro-display font-bold text-5xl md:text-7xl text-foreground mb-6 leading-tight">
             Share • Save • 
-            <span className="text-foreground animate-retro-glow">
+            <span className="text-foreground">
               Sustain
             </span>
           </h1>
