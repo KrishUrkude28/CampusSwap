@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "react-router-dom";
 import { Heart, MessageCircle, Eye, Star } from "lucide-react";
 
 const featuredResources = [
@@ -164,15 +165,19 @@ const FeaturedResources = () => {
                   <Button 
                     size="sm" 
                     className="flex-1 bg-gradient-primary hover:shadow-retro-glow font-semibold"
+                    asChild
                   >
-                    View Details
+                    <Link to="/resources">View Details</Link>
                   </Button>
                   <Button 
                     size="sm" 
                     variant="outline" 
                     className="border-border/50 hover:border-primary hover:text-primary"
+                    asChild
                   >
-                    <MessageCircle className="w-4 h-4" />
+                    <Link to="/chatbot">
+                      <MessageCircle className="w-4 h-4" />
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -185,8 +190,9 @@ const FeaturedResources = () => {
           <Button 
             size="lg"
             className="bg-gradient-primary hover:shadow-retro-glow font-semibold px-8"
+            asChild
           >
-            View All Resources
+            <Link to="/resources">View All Resources</Link>
           </Button>
         </div>
       </div>

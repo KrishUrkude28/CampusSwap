@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { ArrowRight, Users, BookOpen, Gift } from "lucide-react";
 
 const HeroSection = () => {
@@ -28,16 +29,20 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-gradient-primary hover:shadow-retro-glow transform hover:scale-105 transition-all duration-300 font-semibold px-8 py-4 text-lg"
+            asChild
           >
-            Start Exploring
-            <ArrowRight className="ml-2 w-5 h-5" />
+            <Link to="/resources">
+              Start Exploring
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
           </Button>
           <Button 
             variant="outline" 
             size="lg"
             className="border-gold/50 text-gold hover:bg-gold/10 hover:border-gold font-semibold px-8 py-4 text-lg"
+            asChild
           >
-            Post Your First Item
+            <Link to="/post-item">Post Your First Item</Link>
           </Button>
         </div>
 

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Link } from "react-router-dom";
 import { Search, Filter } from "lucide-react";
 
 const SearchSection = () => {
@@ -71,9 +72,11 @@ const SearchSection = () => {
               </div>
 
               {/* Search Button */}
-              <Button className="h-12 px-8 bg-gradient-primary hover:shadow-retro-glow font-semibold">
-                <Search className="w-4 h-4 mr-2" />
-                Search
+              <Button className="h-12 px-8 bg-gradient-primary hover:shadow-retro-glow font-semibold" asChild>
+                <Link to="/resources">
+                  <Search className="w-4 h-4 mr-2" />
+                  Search
+                </Link>
               </Button>
             </div>
 
