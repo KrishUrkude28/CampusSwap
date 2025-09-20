@@ -14,7 +14,7 @@ const Giveaway = () => {
       sponsor: "TechCorp Solutions",
       participants: 142,
       timeLeft: "2 days",
-      image: "/placeholder.svg",
+      image: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/electronics-software-and-accessories/accessories/dell/carrying-case/ecoloop-pro-sleeve-15-16-cv5623/dell-ecoloop-pro-sleeve-15-16-cv5623-1a-with-logo.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500",
       category: "Accessories",
       value: "₹2,500"
     },
@@ -25,7 +25,7 @@ const Giveaway = () => {
       sponsor: "StudyMart",
       participants: 89,
       timeLeft: "5 days",
-      image: "/placeholder.svg",
+      image: "https://m.media-amazon.com/images/I/71i0IB02NwL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
       category: "Stationery",
       value: "₹1,200"
     },
@@ -36,7 +36,7 @@ const Giveaway = () => {
       sponsor: "BookWorld",
       participants: 234,
       timeLeft: "1 week",
-      image: "/placeholder.svg",
+      image: "https://external-preview.redd.it/humble-tech-book-bundle-programming-mega-bundle-2024-by-v0-Tb_BPpxKAR0UcucfbSFaO0_seeSsHDjNXPkswUPwKqU.jpg?width=1080&crop=smart&auto=webp&s=a673ee0773a724534c6cba130803e3e2561f8d65",
       category: "Books",
       value: "₹3,000"
     },
@@ -47,7 +47,7 @@ const Giveaway = () => {
       sponsor: "ElectroHub",
       participants: 67,
       timeLeft: "3 days",
-      image: "/placeholder.svg",
+      image: "https://5.imimg.com/data5/SELLER/Default/2024/4/413746284/JX/CP/UY/202520326/secondary-science-lab-kit-biology-manufacturer-500x500.png",
       category: "Lab Kit",
       value: "₹4,500"
     }
